@@ -1,0 +1,17 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "floorCalcSimple", "floorCalcSimple", "{56058204-6883-4859-80A5-F4E18106674A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "floorCalcMethods", "floorCalcMethods", "{7BBF8974-D5BB-4343-9EA1-38C6EDAAC4E5}"
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7C98D589-42FB-4FF5-823E-47EAC1F9FEEC}
+	EndGlobalSection
+EndGlobal
