@@ -7,9 +7,31 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "floorCalcSimple", "floorCal
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "floorCalcMethods", "floorCalcMethods", "{7BBF8974-D5BB-4343-9EA1-38C6EDAAC4E5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FloorCalcSimple", "FloorCalcSimple\FloorCalcSimple.csproj", "{CB3B42F0-5317-4A18-B929-B04BC7C05CAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "floorCalcMethods", "floorCalcMethods\floorCalcMethods.csproj", "{B6296A90-512E-41B4-9A7B-AB357D81CD17}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CB3B42F0-5317-4A18-B929-B04BC7C05CAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB3B42F0-5317-4A18-B929-B04BC7C05CAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB3B42F0-5317-4A18-B929-B04BC7C05CAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB3B42F0-5317-4A18-B929-B04BC7C05CAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6296A90-512E-41B4-9A7B-AB357D81CD17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6296A90-512E-41B4-9A7B-AB357D81CD17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6296A90-512E-41B4-9A7B-AB357D81CD17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6296A90-512E-41B4-9A7B-AB357D81CD17}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CB3B42F0-5317-4A18-B929-B04BC7C05CAA} = {56058204-6883-4859-80A5-F4E18106674A}
+		{B6296A90-512E-41B4-9A7B-AB357D81CD17} = {7BBF8974-D5BB-4343-9EA1-38C6EDAAC4E5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7C98D589-42FB-4FF5-823E-47EAC1F9FEEC}
